@@ -1,0 +1,155 @@
+body{
+ color: #666;
+}
+h1{
+    display: inline-block;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url("top2.jpg") 20% 60% no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+.header h1{
+    font-size: 20px;
+}
+.navbar-nav li{
+    margin-right: 30px;
+}
+
+.h-nav{
+    background: rgba(0,0,0,0.4);
+}
+.h-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.2);
+}
+.h-center .h-font{
+    font-size: 50px;
+}
+.h-center p{
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+h2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    display: inline-block;
+    width: 150px;
+    height: 3px;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+    background-color: #666666;
+}
+.text-left{
+    text-align: left;
+}
+.my-pic{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.my-pic img{
+    margin-left: 30%;
+    width: 50%;
+}
+.my-par{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.m-skill-about{
+    display: inline-block;
+    width: calc(100%/3);
+    margin: 0;
+    letter-spacing: normal;
+    text-align: center;
+    vertical-align: top;
+}
+.m-skill-about p{
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+}
+.m-skill{
+    letter-spacing: -5px;
+    margin: 0;
+    padding: 0;
+}
+.gray{
+    background: #F3F5F8;
+}
+.work-about{
+    letter-spacing: -5px;
+    margin: 0;
+    padding: 0;
+}
+
+.work-img:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.work-img img{
+    width: 90%;
+    height: 300px;
+    object-fit:cover;
+    object-position: top center;
+    margin-bottom: 20px;
+}
+.m-contact .row{
+    align-items: center;
+}
+.m-contact{
+    position: relative;
+}
+.m-contact-buttun{
+    position: absolute;
+    
+    right: 10%;
+}
+.footer{
+    margin-top: 100px;
+}
+/* 隠れた写真 */
+#graydisplay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%!important;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  z-index: 700;
+}
+#graydisplay img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 90%;
+  height: 90%;
+}
+#twitter:hover{
+    color:#1D9BF0;
+}
