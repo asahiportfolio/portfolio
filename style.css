@@ -4,6 +4,9 @@ body{
 h1{
     display: inline-block;
 }
+a{
+    text-decoration: none;
+}
 .header{
     height: 100vh;
     width: 100%;
@@ -96,6 +99,7 @@ h2::before{
 }
 .gray{
     background: #F3F5F8;
+
 }
 .work-about{
     letter-spacing: -5px;
@@ -152,4 +156,16 @@ h2::before{
 }
 #twitter:hover{
     color:#1D9BF0;
+}
+.more_button{
+    background:linear-gradient(#5df078,#006A14) ;
+    color: #fff;
+    width: 30%;
+    padding: 20px 0;
+}
+.more_button:hover{
+    background:linear-gradient(#006B13,#5df078) ;
+}
+#pd{
+    padding-bottom: 20px;
 }
